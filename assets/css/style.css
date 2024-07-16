@@ -1331,10 +1331,14 @@
 #contents-tab-content.markdown-body table th{
   background-color: inherit !important;
 }
+#detail-docs-content.markdown-body pre{
+  color: #000000 !important
+}
 
 .detail-container .markdown-body code {
   color: inherit;	
 }
+
 
 .detail-container .content-box-styling {
   padding: 10px 30px;
