@@ -27,6 +27,13 @@ function init() {
         container.appendChild(card);
       });
     });
+    showHomePageLink();
 }
 
+function showHomePageLink(){
+  setTimeout(function () {
+    $('#topbar-home-link').removeClass('d-none');
+    $('#topbar-home-link').addClass('d-inline-block');
+  }, 10);
+}
 
